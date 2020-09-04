@@ -1,0 +1,30 @@
+.photo-grid {
+    margin: 0 auto;
+    margin-bottom: 92px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+    gap: 16px;
+    position: relative;
+    left: -100px;
+    width: calc(100% + 100px*2);
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        left: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    .photo-grid {
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 670px) and (max-width: 1024px){
+    .photo-grid {
+        margin-bottom: 88px;
+    }
+}

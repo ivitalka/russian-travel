@@ -1,0 +1,14 @@
+.lead__polka {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__polka {
+        position: relative;
+        left: -24px;
+        width: calc(100% + 48px);
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 28px auto 56px auto;
+    min-height: 52px;
+    width: 90%;
+    background-color: #2A2C2F;
+}
+
+@media screen and (max-width: 670px) {
+    .header {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-bottom: 48px;
+    }
+}
