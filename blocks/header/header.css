@@ -8,14 +8,14 @@
     background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 670px) {
-    .header {
-        margin-top: 16px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .header {
         margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header {
+        margin-top: 16px;
     }
 }

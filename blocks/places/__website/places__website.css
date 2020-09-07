@@ -2,8 +2,8 @@
     align-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .places__website {
-        margin-left: 16px;
+        display: none;
     }
 }

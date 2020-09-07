@@ -1,13 +1,12 @@
 .lead {
-    margin: 0 148px 114px 148px;
-    /*
-    margin-bottom: 114px;
-    */
+    max-width: 984px;
+    margin: 0 auto 114px auto;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
-        margin: 0 48px 114px 48px;
+        max-width: 928px;
+        margin: 0 auto 114px auto;
     }
 }
 

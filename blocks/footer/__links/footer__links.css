@@ -6,12 +6,6 @@
     justify-content: flex-start;
 }
 
-@media screen and (max-width: 1024px) {
-    .footer__links {
-        left: 0;
-    }
-}
-
 @media screen and (max-width: 670px) {
     .footer__links {
         flex-direction: column;

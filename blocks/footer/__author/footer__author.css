@@ -5,12 +5,6 @@
 
 }
 
-@media screen and (max-width: 1024px) {
-    .footer__author {
-        right: 0;
-    }
-}
-
 @media screen and (max-width: 670px) {
     .footer__author {
         line-height: 1;
