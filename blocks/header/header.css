@@ -4,7 +4,8 @@
     justify-content: flex-end;
     margin: 28px auto 56px auto;
     min-height: 52px;
-    width: 90%;
+    width: calc(100% - 48px*2);
+    max-width: 1184px;
     background-color: #2A2C2F;
 }
 
@@ -14,8 +15,20 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        width: calc(100% - 24px*2);
+    }
+}
+
 @media screen and (max-width: 670px) {
     .header {
         margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: calc(100% - 16px*2);
     }
 }

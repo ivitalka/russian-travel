@@ -1,6 +1,7 @@
+@import url(../styles/normalize.css);
+
 @import url(../fonts/fonts.css);
 
-@import url(../styles/normalize.css);
 
 @import url(../blocks/root/root.css);
 
@@ -22,7 +23,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__points/intro__points.css);
-@import url(../blocks/intro/__integer/intro__integer.css);
+@import url(../blocks/intro/__normal-text/intro__normal-text.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
